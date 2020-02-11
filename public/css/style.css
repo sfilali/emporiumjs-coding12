@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "Popping";
+  font-family: "Poppins";
   src: url(../../public/fonts/Poppins-Regular.ttf);
 }
 /*!
@@ -15790,7 +15790,7 @@ h3 {
   }
 }
 body {
-  font-family: "Popping";
+  font-family: "Poppins";
 }
 
 #services .card-img-overlay {
@@ -15799,11 +15799,28 @@ body {
   align-items: center;
   flex-direction: column;
 }
+#services .card-img-overlay h5 {
+  text-align: center;
+}
 #services .card-img-overlay hr {
   margin: 0;
   width: 75%;
   border-width: 1px;
   border-color: white;
+}
+
+#recent_products {
+  text-align: center;
+  font-weight: bold;
+}
+#recent_products h5 {
+  font-weight: bolder;
+}
+#recent_products img {
+  width: 100%;
+}
+#recent_products .prix {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
