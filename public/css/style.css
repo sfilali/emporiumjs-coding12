@@ -15793,22 +15793,23 @@ body {
   font-family: "Poppins";
 }
 
-#services .col-4 {
-  padding: 0;
-}
-#services .card-img-overlay {
+.card-img-overlay {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#services .card-img-overlay img {
+
+#services .col-4 {
+  padding: 0;
+}
+#services .col-4 img {
   width: 100%;
 }
-#services .card-img-overlay h4 {
+#services .col-4 h4 {
   text-align: center;
 }
-#services .card-img-overlay hr {
+#services .col-4 hr {
   margin: 0;
   width: 75%;
   border-width: 1px;
