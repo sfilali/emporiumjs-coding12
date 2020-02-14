@@ -15800,16 +15800,16 @@ body {
   flex-direction: column;
 }
 
-#services .col-4 {
+#services .col-lg-4 {
   padding: 0;
 }
-#services .col-4 img {
+#services .col-lg-4 img {
   width: 100%;
 }
-#services .col-4 h4 {
+#services .col-lg-4 h4 {
   text-align: center;
 }
-#services .col-4 hr {
+#services .col-lg-4 hr {
   margin: 0;
   width: 75%;
   border-width: 1px;
