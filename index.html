@@ -7,8 +7,55 @@
     <title>emporium.</title>
 </head>
 <body>
+    <!--HEADER-->
+    <header>
+        <h1 id="emporiumTop" class="font-weight-bold p-5 text-center">emporium.</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand font-weight-bold text-center" href="#">emporium.</a>
+            <div class="collapse navbar-collapse justify-content-center " width="100%" id="navbarNavAltMarkup">
+                <div class="navbar-nav align-items-center justify-content-around">
+                    <a class="nav-item nav-link text-dark px-lg-4" href="#">HOME</a>
+                    <a class="nav-item nav-link text-dark px-lg-4" href="#">PRODUCT</a>
+                    <a class="nav-item nav-link text-dark px-lg-4" href="#">BLOG</a>
+                    <a class="nav-item nav-link text-dark px-lg-4" href="#">ELEMENTS</a>
+                    <a class="nav-item nav-link text-dark px-lg-4" href="#">ABOUT</a>
+                    <a class="nav-item nav-link text-dark px-lg-4" href="#">CONTACT</a>
+                    <div class="nav-item nav-link">
+                        <button id="white" class="btn btn-light border"></button>
+                        <button id="black" class="btn btn-dark border"></button>
+                        <button id="connexion" class="btn btn-secondary rounded-0">CONNEXION</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--BANNER-->
+    <section id="banner" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="py-5">
+                        <p class="h1 text-danger">Shop at</p>
+                        <img src="./public/img/logo.png" class="w-75" alt="">
+                        <p class="text-secondary">
+                            A wonderful serenity has taken possession of my entire soul, like these sxeet mornings of spring which I enjoy with my.
+                        </p>
+                        <button class="btn btn-danger rounded-pill px-5 py-3">SALE ITEMS</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div><img src="./public/img/slider-1.jpg" class="w-100 im-fluid" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--SERVICES-->
-    <section id="services" class="pt-5">
+    <section id="services" class="">
         <div class="row m-0">
             <!--Living Room-->
             <div class="col-lg-4 col-md py-3" id="service1">
@@ -199,5 +246,10 @@
         </article>
         <article id="copyright" class="text-secondary text-center p-3 pb-4">COPYRIGHT 2020 GOODLAYERS, ALL RIGHT RESERVED</article>
     </footer>
+
+    <!--Script JS BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

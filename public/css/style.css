@@ -15793,6 +15793,17 @@ body {
   font-family: "Poppins";
 }
 
+nav, #connexion {
+  font-size: small;
+}
+nav .navbar-nav button, #connexion .navbar-nav button {
+  height: 30px;
+}
+
+#banner {
+  background-color: whitesmoke;
+}
+
 .card-img-overlay {
   display: flex;
   justify-content: center;
