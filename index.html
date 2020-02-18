@@ -16,7 +16,7 @@
             </button>
             <a class="navbar-brand font-weight-bold text-center" href="#">emporium.</a>
             <div class="collapse navbar-collapse justify-content-center " width="100%" id="navbarNavAltMarkup">
-                <div class="navbar-nav align-items-center justify-content-around">
+                <div class="navbar-nav align-items-lg-center justify-content-around">
                     <a class="nav-item nav-link text-dark p-lg-4" href="#">HOME</a>
                     <a class="nav-item nav-link text-dark p-lg-4" href="#">PRODUCT</a>
                     <a class="nav-item nav-link text-dark p-lg-4" href="#">BLOG</a>
@@ -32,6 +32,35 @@
             </div>
         </nav>
     </header>
+
+    <!--Modal-->
+    <section id="modal" class="d-none position-fixed w-100 h-100">
+        <div class="content rounded">
+            <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <p class="h5 font-weight-bold text-center p-3">Bienvennue sur emporium.</p>
+            <div class="container">
+                <div id="bouttons" class="d-flex flex-column">
+                    <button id="seconnecter" class="btn btn-danger font-weight-bold mx-5 mx-sm-0 my-3">se connecter</button>
+                    
+                    <div id="champsconnexion" class="d-none">
+                        champsconnexion
+                        <button class="btn btn-danger">se connecter</button>
+                    </div>
+
+                    <button id="sinscrire" class="btn btn-light font-weight-bold mx-5 mx-sm-0 my-3">s'inscrire</button>
+
+                    <div id="champsinscription" class="d-none">
+                        champsinscription
+                        <button class="btn btn-danger">se connecter</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <!--BANNER-->
     <section id="banner" class="">
@@ -247,6 +276,8 @@
         <article id="copyright" class="text-secondary text-center p-3 pb-4">COPYRIGHT 2020 GOODLAYERS, ALL RIGHT RESERVED</article>
     </footer>
 
+    <!--SCRIPT JS-->
+    <script src="./public/js/main.js"></script>
     <!--Script JS BOOTSTRAP-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
